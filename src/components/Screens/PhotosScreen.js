@@ -11,8 +11,6 @@ export const PhotosScreen = () => {
     </div>
 
     </>
-                
-   
-    
+
   )
 }
