@@ -1,4 +1,6 @@
+// @vendor
 import React from 'react'
+//styles
 import '../../styles/photosScreen.css'
 
 export const PhotosScreen = () => {

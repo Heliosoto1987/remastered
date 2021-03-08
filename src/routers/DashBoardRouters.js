@@ -7,6 +7,7 @@ import { UserScreen } from '../components/Screens/UserScreen'
 import { TodoAppScreen } from '../components/Screens/TodoAppScreen'
 import { GiphyScreen } from '../components/Screens/GiphyScreen'
 import { StarsWarScren } from '../components/Screens/StarsWarScren'
+import { ContacScreen } from '../components/Screens/ContacScreen'
 
 export const DashBoardRouters = () => {
   return (
@@ -21,6 +22,8 @@ export const DashBoardRouters = () => {
                 <Route  exact path="/giphy" component={ GiphyScreen } />
                 <Route  exact path="/stars" component={ StarsWarScren } />
                 <Route  exact path="/user" component={ UserScreen } />
+                <Route  exact path="/contact" component={ ContacScreen } />
+
                 <Redirect to="/login" />
 
                 </Switch>

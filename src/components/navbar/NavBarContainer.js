@@ -19,7 +19,7 @@ export const NavBarContainer = () => {
 
                 <Link className="container__left--proyect" to="/todoapp">Proyecto: TodoApp<i className="fas fa-list"></i></Link>
 
-                <Link className="container__left--last" to="/login">Cerrar sesion <i className="fas fa-sign-out-alt"></i></Link>
+                <Link className="container__left--last" to="/contact">Contactame <i className="fas fa-sign-out-alt"></i></Link>
 
             </div>
 

@@ -1,9 +1,11 @@
+//vendor
 import React from 'react'
+//styles
 import '../../styles/userscreen.css'
 
 export const UserScreen = () => {
     return (
-        <div className="userContainer">
+        <div className="userScreen">
             <h1>Permisos</h1>
                 <div className="userContainer__box">
                     <div className="userContainer__box--title">
