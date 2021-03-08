@@ -1,0 +1,126 @@
+.starswarsscren{
+    background-image: url(https://github.com/Heliosoto1987/images/blob/master/fondo.jpeg?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.starswarsscren__img--container{
+    width: 250px;
+    height: 100px;
+    margin-top: 100px; 
+}
+
+.starswarsscren__img--name, .starswarsscren__buttom--img{
+    width: 100%;
+    height: 100%;
+}
+
+.starswarsscren__img--ship{
+    width: 200px;
+    height: 20%;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.starswarsscren__buttom{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+}
+
+.starswarsscren__buttom--img{
+    animation-name: turn;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+.starswarsscren__buttom--inside{
+    letter-spacing: 2.5px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: fantasy;
+    text-align: center;
+    position: relative;
+    top: 60%;
+}
+
+.starswarsscren__buttom--inside:hover{
+    color: white;
+}
+
+@keyframes turn {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate( 360deg);
+    }
+  }
+
+  @media (min-width:501px) {
+
+      
+      .starswarsscren__img--container{
+          width: 400px;
+          height: 125px;
+          margin-top: 80px;
+          
+        }
+
+        .starswarsscren__img--ship{
+            width: 225px;
+            height: 25%;
+            position: relative;
+           
+        }
+      
+  }
+  
+  
+  @media (min-width:1100px) {
+
+    .starswarsscren__img--container{
+        width: 560px;
+        height: 240px;
+    }
+
+    .starswarsscren__img--ship{
+        width: 450px;
+        height: 309px;
+        position: absolute;
+        left: 59.8%;
+        top: 2.5%;
+        bottom: 57.1%;
+        right: 1.2%;
+
+     
+    }
+
+    .starswarsscren__buttom{
+        height: 200px;
+        width: 200px;
+    }
+
+    .starswarsscren__buttom--inside{
+       font-size: 2rem;
+    }
+    
+  }
+      
+      
+  
+   

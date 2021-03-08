@@ -1,0 +1,69 @@
+.gifScreen{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(54, 171, 255); 
+}
+
+.gifScreen__header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gifScreen__input{
+  margin-top: 5%;
+}
+
+
+.gifGrid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gifScreen__main{
+  padding: 0;
+}
+
+.gifGrid__title{
+  display: flex;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+.giphyItem{
+  display: flex;
+  flex-direction: column;
+  width: 28vw;
+  height: 25vh;
+  margin: 5%;
+  box-shadow: 5px 2px 2px rgb(43, 43, 43);
+  overflow: hidden;
+
+}
+
+.giphyItem__img{
+  width: 100%;
+  height: 100%;
+}
+  
+.giphyItem__img--item{
+  width: 100%;
+  height: 100%;
+
+}
+
+@media (max-width: 600px){
+
+  .gifScreen__h3{
+    margin-left: 10%;
+  }
+
+}
+
+
+
+
