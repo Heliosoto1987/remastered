@@ -20,26 +20,29 @@ export const ContacScreen = () => {
             </div>
             <form 
             className="contacscreen__form"
-            method="get" 
-            action="mailto:heliosoto17@hotmail.com" 
-            enctype="text/plain">
-
+            action="/remastered/php/enviar.php"
+            method="POST" 
+            >
                 <input 
+                name="name"
                 placeholder="Nombre y Apellido*"
                 className="contacscreen__form--name formInput">
                 </input>
             
                 <input 
+                name="phone"
                 placeholder="Número de teléfono"
                 className="contacscreen__form--lastname formInput">
                 </input>
 
                 <input 
+                name="email"
                 placeholder="Mail*"
                 className="contacscreen__form--email formInput">
                 </input>
                 
                 <input 
+                name="text"
                 placeholder="Escribe aquí tu mensaje*"
                 className="contacscreen__form--text formText">
                 </input>
@@ -49,7 +52,6 @@ export const ContacScreen = () => {
                 type="submit"
                 value="Enviar"
                 >
-                
                 </input>
 
             </form>

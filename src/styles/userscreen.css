@@ -1,4 +1,4 @@
-.userContainer{
+.userScreen{
     background-color: rgb(255, 189, 56);
     height: 100vh;
     width: 100vw;
@@ -9,11 +9,9 @@
     font-size: 1rem;
 }
 
-.userContainer h1{
-    background-color: whitesmoke;
+.userScreen h1{
     padding: 5px;
-    border: solid rgb(255, 255, 255) 2px;
-    box-shadow: black 0.2rem 0.2rem 0.2rem 0.2rem;
+
 }
 
 .userContainer__box{
