@@ -20,7 +20,7 @@ export const ContacScreen = () => {
             </div>
             <form 
             className="contacscreen__form"
-            action="/remastered/php/enviar.php"
+            action="enviar.php"
             method="POST" 
             >
                 <input 
