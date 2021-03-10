@@ -36,17 +36,17 @@ export const ContacScreen = ( { history } ) => {
         <>
             <div className="contacscreen">
                 <div className="contacscreen__title">
-                    Contactame
+                    Contacto
                 </div>
 
                 <div className="responsive">
-                <div className="contacscreen__img">
-                    <img src="/remastered/assets/Helio.jpg"></img>
-                </div>
+                    <div className="contacscreen__img">
+                        <img src="/remastered/assets/Helio.jpg"></img>
+                    </div>
 
-                <div className="contacscreen__imgtext">
-                    Helio Soto Arevalo
-                </div>
+                    <div className="contacscreen__imgtext">
+                        Helio Soto Arevalo
+                    </div>
                 </div>
 
                 <form 
