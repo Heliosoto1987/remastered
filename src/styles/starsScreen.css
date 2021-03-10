@@ -1,9 +1,9 @@
-#loginscreen__tsparticles1{
+#loginscreen__tsparticles1 {
     position: relative;
     z-index: -5;
 }
 
-a{
+a {
     z-index: 5;
     background-color: white;
 }

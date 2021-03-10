@@ -3,7 +3,7 @@ import { GifExpertApp } from '../giphyScreenComponents/GifExpertApp'
 
 export const GiphyScreen = () => {
   return (
-      <GifExpertApp />
-     
+    <GifExpertApp />
+
   )
 }

@@ -1,4 +1,4 @@
-.userScreen{
+.userScreen {
     background-color: rgb(255, 189, 56);
     height: 100vh;
     width: 100vw;
@@ -9,12 +9,11 @@
     font-size: 1rem;
 }
 
-.userScreen h1{
+.userScreen h1 {
     padding: 5px;
-
 }
 
-.userContainer__box{
+.userContainer__box {
     background-color: white;
     padding: 10px;
     border: solid black 2px;
@@ -24,23 +23,23 @@
     text-align: center;
 }
 
-.userContainer__box--insideTitle{
+.userContainer__box--insideTitle {
     font-weight: bold;
 }
 
-.userContainer__box--title{
+.userContainer__box--title {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
 }
 
-.userContainer__box--credit :nth-child(2){
+.userContainer__box--credit :nth-child(2) {
     font-weight: bold;
     background-color: rgb(216, 25, 25);
     color: white;
 }
 
-.userContainer__box--credit :last-child{
+.userContainer__box--credit :last-child {
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -50,7 +49,7 @@
     font-size: 1.5rem;
 }
 
-.userContainer__box--credit :last-child:hover{
+.userContainer__box--credit :last-child:hover {
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -58,7 +57,7 @@
     background-color: rgb(116, 116, 116);
 }
 
-.fa-check-circle{
+.fa-check-circle {
     align-self: center;
     width: fit-content;
     color: green;

@@ -1,8 +1,8 @@
 .visual__container {
-    display: flex;
+  display: flex;
 }
 
-.background__opacity{
+.background__opacity {
   height: 100%;
   width: 100%;
   background-color: black;
@@ -12,51 +12,59 @@
 }
 
 .button__container {
-    display: flex;
-    padding: 1%;
-    justify-content: center;
-    align-items: center;
-    border: 0.2rem solid black;
-    background-color: rgb(14, 146, 240);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 20;
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border: none;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
 }
 
-.fa-times, .fa-bars{
-  font-size: 3rem;
-  color: white;
-
+.fa-times, .fa-bars {
+  font-size: 2rem;
 }
 
 .button__open {
-    animation-name: open-button;
-    animation-fill-mode: forwards;
-    animation-duration: 0.8s;
-    margin-left: 2px;
+  animation-name: open-button;
+  animation-fill-mode: forwards;
+  animation-duration: 0.8s;
+  margin-left: 2px;
 }
 
 .button__close {
-    animation-name: close-button;
-    animation-fill-mode: forwards;
-    animation-duration: 0.8s;
+  animation-name: close-button;
+  animation-fill-mode: forwards;
+  animation-duration: 0.8s;
 }
 
 @keyframes open-button {
-    from {
-        left: 0vw;
-    }
-    to {
-        left: 55vw;
-    }
+  from {
+    left: 0vw;
   }
-  
-  @keyframes close-button {
-    from {
-      left: 55vw;
-    }
-    to {
-      left: 0vw;
-    }
+  to {
+    left: 55vw;
   }
+}
+
+@keyframes close-button {
+  from {
+    left: 55vw;
+  }
+  to {
+    left: 0vw;
+  }
+}
+
+@media (min-width: 770px){
+  .button__container{
+
+    padding: 2%;
+  }
+
+  .fa-times, .fa-bars {
+    font-size: 4rem;
+  }
+}

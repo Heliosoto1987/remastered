@@ -8,6 +8,8 @@ import { TodoAppScreen } from '../components/Screens/TodoAppScreen'
 import { GiphyScreen } from '../components/Screens/GiphyScreen'
 import { StarsWarScren } from '../components/Screens/StarsWarScren'
 import { ContacScreen } from '../components/Screens/ContacScreen'
+import { ThanksScreen } from '../components/Screens/ThanksScreen'
+import { ProjectScreen } from '../components/Screens/ProjectScreen'
 
 export const DashBoardRouters = () => {
   return (
@@ -16,6 +18,7 @@ export const DashBoardRouters = () => {
 
                 <Switch>
 
+                <Route  exact path="/thanks" component={ ThanksScreen } />
                 <Route  exact path="/home" component={ HomeScreen } />
                 <Route  exact path="/photos" component={ PhotosScreen } />
                 <Route  exact path="/todoapp" component={ TodoAppScreen } />
@@ -23,6 +26,7 @@ export const DashBoardRouters = () => {
                 <Route  exact path="/stars" component={ StarsWarScren } />
                 <Route  exact path="/user" component={ UserScreen } />
                 <Route  exact path="/contact" component={ ContacScreen } />
+                <Route  exact path="/projects" component={ ProjectScreen }/>
 
                 <Redirect to="/login" />
 
