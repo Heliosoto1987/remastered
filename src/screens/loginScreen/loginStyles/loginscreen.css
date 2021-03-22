@@ -7,6 +7,7 @@
 }
 
 .aboutscreen__main__firstTitle {
+  margin-top: 70px;
   font-weight: bold;
   margin-bottom: 40px;
 }
@@ -48,4 +49,14 @@
 }
 
 @media (max-width: 600px) {
+  .aboutscreen__main__firstTitle {
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .about__libray {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
 }

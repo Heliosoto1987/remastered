@@ -19,10 +19,9 @@ export const ProjectScreen = ({ history }) => {
         <ul className="projectScreen__container">
           <li className="projectScreen__flex">
             <span className="projectScreen__text">
-              Descripción: Realizado en React utilizando useReduce, "To do App"
-              ya no vas a olvidar más tus cosas por hacer, anotalas y sin
-              problemas cierra la aplicación que el localStorage lo recordara
-              por ti.
+              Realizado en React utilizando useReduce, "To do App" ya no vas a
+              olvidar más tus cosas por hacer, anotalas y sin problemas cierra
+              la aplicación que el localStorage lo recordara por ti.
             </span>
             <div
               onClick={() => {
@@ -38,8 +37,8 @@ export const ProjectScreen = ({ history }) => {
           </li>
           <li className="projectScreen__flex">
             <span className="projectScreen__text">
-              Descripción: Realizado en javascript Vanilla, Trata de adivinar El
-              numero que invento "DONATO". Nota: Puedes hacer una trampa =)
+              Realizado en javascript Vanilla, Trata de adivinar El numero que
+              invento "DONATO". Nota: Puedes hacer una trampa =)
             </span>
             <a
               target="_blank"
@@ -54,8 +53,7 @@ export const ProjectScreen = ({ history }) => {
           </li>
           <li className="projectScreen__flex">
             <span className="projectScreen__text">
-              Descripción: Realizado en react consumiendo una api, Buscador de
-              GIF.
+              Realizado en react consumiendo una api, Buscador de GIF.
             </span>
             <div
               onClick={() => {
@@ -71,9 +69,9 @@ export const ProjectScreen = ({ history }) => {
           </li>
           <li className="projectScreen__flex">
             <span className="projectScreen__text">
-              Descripción: Realizado con javascript vainilla consumiendo una
-              api, por otro lado fotos montajes con mi familia, "Mientras
-              practico me divierto xD"
+              Realizado con javascript vanilla consumiendo una api, por otro
+              lado fotos montajes con mi familia, "Mientras practico me divierto
+              xD"
             </span>
             <div
               onClick={() => {
