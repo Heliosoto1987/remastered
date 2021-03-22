@@ -1,0 +1,46 @@
+.userScreen {
+  background-color: rgb(255, 189, 56);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.userScreen h1 {
+  padding: 5px;
+}
+
+.userContainer__box {
+  background-color: white;
+  padding: 10px;
+  border: solid black 2px;
+  box-shadow: black 0.2rem 0.2rem 0.2rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.userContainer__box--insideTitle {
+  font-weight: bold;
+}
+
+.userContainer__box--title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.userContainer__box--credit :nth-child(2) {
+  font-weight: bold;
+  background-color: rgb(216, 25, 25);
+  color: white;
+}
+
+.fa-check-circle {
+  align-self: center;
+  width: fit-content;
+  color: green;
+}

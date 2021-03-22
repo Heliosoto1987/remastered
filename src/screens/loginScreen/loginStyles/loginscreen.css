@@ -1,0 +1,51 @@
+.aboutscreen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: rgb(57, 57, 57);
+}
+
+.aboutscreen__main__firstTitle {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.aboutscreen__main {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  text-align: center;
+}
+.about__libray {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__main--title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.about__main--title:last-child {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.loginscreen__main__firstTitle {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 10%;
+}
+
+#loginscreen__tsparticles {
+  position: absolute;
+  opacity: 0.6;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+}

@@ -1,0 +1,32 @@
+.container__left {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.container__left :hover {
+  color: black;
+}
+.container__left--item {
+  background-color: rgba(240, 222, 199, 0.5);
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.8rem;
+  height: 15vh;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__left--item:hover {
+  color: #77a59f;
+}
+.container__left .fas {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .container__left--item {
+    font-size: 1rem;
+    height: 10vh;
+  }
+}
