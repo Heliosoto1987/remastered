@@ -9,7 +9,7 @@ export const StarsWarScren = () => {
       <div className="starswarsscren__img--container">
         <img
           className="starswarsscren__img--name"
-          src="https://cdn.zeplin.io/603cf07e815ced8f2d373c92/components/D3B37DD1-A3A7-48D5-BE46-1EE4515384DB.png"
+          src="https://raw.githubusercontent.com/Heliosoto1987/images/50b6df31c0e79ff161b9b7aa749e3f096c976ffc/portafolios/starwarsLetters.svg"
         />
       </div>
       <div className="starswarsscren__img--ship">
@@ -29,7 +29,7 @@ export const StarsWarScren = () => {
         </a>
         <img
           className="starswarsscren__buttom--img"
-          src="https://cdn.zeplin.io/603cf07e815ced8f2d373c92/screens/16537E1F-4D4D-4B65-8CDD-8B3EA823A2C0.png"
+          src="https://github.com/Heliosoto1987/images/blob/master/portafolios/starwars.png?raw=true"
         />
       </div>
     </div>
