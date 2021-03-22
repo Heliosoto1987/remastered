@@ -18,8 +18,8 @@ export const AboutScreen = () => {
           </h1>
           <div className="aboutContainer__hi">
             Busco activamente mi oportunidad como programador front-end. Siempre
-            ligado al mundo del IT, antes orientado hacia el hardware, y ahora a
-            al software. La programación me apasionó al instante y me encanta
+            ligado al mundo del IT, antes orientado hacia el hardware y ahora al
+            software. La programación me apasionó al instante y me encanta
             ampliar día a día mis conocimientos. Actualmente estoy realizando un
             curso para dar el salto a fullstack con el stack MERN, con objetivo
             de desarrollarme como profesional aprendo también sobre diseño web.
