@@ -11,7 +11,6 @@ import { ResumeScreen } from "../screens/resumenScreen/ResumeScreen";
 import { GiphyScreen } from "../screens/giphyScreen/GiphyScreen";
 import { ContacScreen } from "../screens/contacScreen/ContacScreen";
 import { ProjectScreen } from "../screens/proyectScreen/ProjectScreen";
-import { TodoAppScreen } from "../screens/todoScreen/TodoAppScreen";
 import { StarsWarScren } from "../screens/starsScreen/StarsWarScreen";
 
 export const DashBoardRouters = () => {
@@ -22,7 +21,6 @@ export const DashBoardRouters = () => {
         <Route exact path="/about" component={AboutScreen} />
         <Route exact path="/thanks" component={ThanksScreen} />
         <Route exact path="/resume" component={ResumeScreen} />
-        <Route exact path="/todoapp" component={TodoAppScreen} />
         <Route exact path="/giphy" component={GiphyScreen} />
         <Route exact path="/stars" component={StarsWarScren} />
         <Route exact path="/user" component={UserScreen} />

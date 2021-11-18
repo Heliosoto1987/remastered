@@ -34,24 +34,6 @@ export const ProjectScreen = ({ history }) => {
           </li>
           <li className="projectScreen__flex">
             <span className="projectScreen__text">
-              Realizado en React utilizando useReduce, "To do App" ya no vas a
-              olvidar más tus cosas por hacer, anotalas y sin problemas cierra
-              la aplicación que el localStorage lo recordara por ti.
-            </span>
-            <div
-              onClick={() => {
-                history.push("/todoapp");
-              }}
-              className="projectScreen__img animate__animated animate__backInDown"
-            >
-              <img
-                className="projectScreen__img--item"
-                src="/remastered/assets/todoApp.png"
-              />
-            </div>
-          </li>
-          <li className="projectScreen__flex">
-            <span className="projectScreen__text">
               Realizado en javascript Vanilla, Trata de adivinar El numero que
               invento "DONATO". Nota: Puedes hacer una trampa =)
             </span>
