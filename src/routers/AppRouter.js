@@ -1,7 +1,7 @@
 //vendor
 import React from "react";
 //reactRouter
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 //Dashboard
 import { DashBoardRouters } from "./DashBoardRouters";
 //Screens

@@ -18,14 +18,14 @@
 }
 
 .aboutContainer__img {
-  width: 200px;
+  width: 20vw;
   height: 200px;
 }
 
 .aboutContainer__img img {
   width: 100%;
   height: 100%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .aboutContainer__hi {

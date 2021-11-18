@@ -13,17 +13,16 @@ export const AboutScreen = () => {
           <h1 className="aboutContainer__title">
             Sobre mí{" "}
             <div className="aboutContainer__img">
-              <img src="https://avatars.githubusercontent.com/u/54855884?s=400&u=4d85097e35af3e100269eb43e3673864a1da064b&v=4"></img>
+              <img src="https://github.com/Heliosoto1987/remastered/blob/master/public/assets/Helio%201.jpg?raw=true"></img>
             </div>
           </h1>
           <div className="aboutContainer__hi">
-            Busco activamente mi oportunidad como programador front-end. Siempre
-            ligado al mundo del IT, antes orientado hacia el hardware y ahora al
-            software. La programación me apasionó al instante y me encanta
-            ampliar día a día mis conocimientos. Actualmente estoy realizando un
-            curso para dar el salto a fullstack con el stack MERN, con objetivo
-            de desarrollarme como profesional aprendo también sobre diseño web.
-            Espero les guste mi página.
+            Soy un programador Full Stack, autodidacta con stack MERN, he
+            desarrollado aplicaciones usando los servicios de firebase, me
+            encanta la programación por que día a día debo resolver problemas
+            utilizando la lógica. Lo genial de programar web es que cualquier
+            dispositivo electrónico donde se pueda abrir un navegador web vamos
+            a poder ejecutar nuestra aplicación.
           </div>
           <div className="aboutContainer__bye">
             Muchas gracias por dedicarme su tiempo.

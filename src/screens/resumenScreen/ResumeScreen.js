@@ -10,8 +10,8 @@ export const ResumeScreen = () => {
   return (
     <>
       <div className="resumescreen">
-        <img src="/remastered/assets/HelioCVSoto.jpg"></img>
-        <a className="btn" href="/remastered/assets/HelioCVsoto.pdf" download>
+        <img src="/remastered/assets/Heliodescargar.jpg"></img>
+        <a className="btn" href="/remastered/assetsHeliodescargar" download>
           <Button text={"Descargar"} />
         </a>
       </div>

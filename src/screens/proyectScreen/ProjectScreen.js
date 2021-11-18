@@ -19,6 +19,21 @@ export const ProjectScreen = ({ history }) => {
         <ul className="projectScreen__container">
           <li className="projectScreen__flex">
             <span className="projectScreen__text">
+              Buscador de Compañias utilizando REACT y SASS.
+              https://github.com/Heliosoto1987/HelioSearch
+            </span>
+            <a
+              href="https://heliosoto1987.github.io/HelioSearch/#/"
+              className="projectScreen__img animate__animated animate__backInDown"
+            >
+              <img
+                className="projectScreen__img--item"
+                src="/remastered/assets/logo.png"
+              />
+            </a>
+          </li>
+          <li className="projectScreen__flex">
+            <span className="projectScreen__text">
               Realizado en React utilizando useReduce, "To do App" ya no vas a
               olvidar más tus cosas por hacer, anotalas y sin problemas cierra
               la aplicación que el localStorage lo recordara por ti.
