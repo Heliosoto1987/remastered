@@ -40,12 +40,11 @@
 
 .login__main--title:last-child {
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 2%;
 }
 
 .loginscreen__main__firstTitle {
   font-weight: bold;
-  font-size: 2rem;
   margin-bottom: 10%;
 }
 

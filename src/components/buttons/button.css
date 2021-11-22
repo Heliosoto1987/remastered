@@ -1,6 +1,5 @@
 .components__button {
   background-color: #a7d1dd;
-  margin: 2%;
   padding: 5% 5%;
   border-style: none;
   border-radius: 8px;
@@ -10,8 +9,3 @@
   z-index: 15;
 }
 
-@media (max-width: 600px) {
-  .components__button {
-    width: 40vw;
-  }
-}
